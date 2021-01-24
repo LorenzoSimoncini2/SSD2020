@@ -1,0 +1,43 @@
+body {
+	display: flex;
+	flex-wrap: wrap;
+	background: #202224;
+}
+
+h1 {
+	width: 100%;
+	margin-left: 5px;
+}
+
+#buttons {
+	display: flex; 
+	flex-direction: column;
+	width: 100%;
+	flex-wrap: wrap;
+	height: 350px;
+}
+
+#txtarea {
+	height: 100%;
+	margin: 5px;
+}
+
+#indxID {
+	width: 130px;
+}
+
+input {
+	margin: 8px;
+	width: fit-content;
+}
+
+label, h1 {
+	color: white;
+}
+
+#imgContainer {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+    padding: 5px;
+}

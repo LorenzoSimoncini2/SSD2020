@@ -1,0 +1,53 @@
+-Parametri MLP
+- prevision: 120
+
+  - SP_500
+    - seed: 56
+	- npast: 80
+	- lr: 0.00004
+	- batch size: 132
+	- epochs: 600
+	
+  - Us_Treasury
+    - seed: 56
+	- npast: 80
+	- lr: 0.00003
+	- batch size: 100
+	- epochs: 600
+	
+  - MSCI_EURO
+    - seed: 56
+	- npast: 100
+	- lr: 0.00006
+	- batch size: int(len(trainX) / 4)
+	- epochs: 500
+	
+  - MSCI_EM
+	- seed: 56
+	- npast: 90
+	- lr: 0.00003
+	- batch size: 132
+	- epochs: 400
+	
+  - GOLD_SPOT
+	- seed: 56
+	- npast: 80
+	- lr: 0.000009
+	- batch size: 132
+	- epochs: 600
+	
+  - FTSE_MIB
+	- seed: 56
+	- npast: 90
+	- lr: 0.0005
+	- batch size: 90
+	- epochs: 800
+	
+  - ALL_BONDS
+	- seed: 56
+	- npast: 60
+	- lr: 0.000041
+	- batch size: 132
+	- epochs: 600
+	
+	
